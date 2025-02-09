@@ -1,0 +1,30 @@
+<ul class="menu1">
+	
+	<li><a href="{% url 'dashboard' %}">Dashboard</a></li>
+	<li><a href="{% url 'candidate_list' %}">Candidate List</a></li>
+	<li><a href="{% url 'my_vote' %}">Vote Details</a></li>
+	<li><a href="{% url 'logout' %}">Logout</a></li>
+
+</ul>
+<style>
+.menu1 li
+{
+	list-style:none;
+	font-size:18px;
+}
+.menu1 li a
+{
+	color:#fff;
+	padding:15px;
+	display:block;
+}
+.menu1 
+{
+	padding:0;
+}
+.menu1 li a:hover
+{
+	background:#000;
+	text-decoration:none;
+}
+</style>

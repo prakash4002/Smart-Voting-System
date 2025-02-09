@@ -1,0 +1,396 @@
+body
+{
+	background:#F8F8F8 ;
+}
+#margin
+{
+	margin:20px 0 0;
+}
+.session
+{
+	display:none;
+}
+.login .container
+{
+	width:60% !important;
+	margin:30px auto 0 auto;
+}
+.login1
+{
+	display:none;
+}
+.msg
+{
+	font:18px Georgia, "Times New Roman", Times, serif;
+	color:#0C6;
+}
+.login 
+{
+	margin:100px 0 0;
+}
+.clear
+{
+	clear:both;
+}
+.profilepage
+{
+	padding:0 0 20px 0;
+}
+.aboutuserpage .col-md-3
+{
+	background:#FFF;
+	margin-right:20px;
+	border-top:3px solid #1fae66;
+	padding:30px 20px;
+	width:30%;
+}
+.aboutuserpage .col-md-8
+{
+	background:#FFF;
+	border-top:3px solid #1fae66;
+	padding:30px 20px;
+	width:65%;
+	
+}
+.post-meta
+{
+	margin:20px 0;
+}
+.post-meta span
+{
+	padding-right:20px;
+}
+.aboutuserpage .col-md-8 .pull-left
+{
+	width:50%;
+}
+.aboutuserpage .col-md-8 .pull-right
+{
+	width:49%;
+}
+.aboutuserpage .col-md-8  .col-sm-2
+{
+	width:40%;
+}
+.aboutuserpage .col-md-8  .col-sm-10
+{
+	width:60%;
+	padding:0 !important;
+}
+.image
+{
+	margin-top:10px;
+}
+.image p
+{
+	text-align:justify;
+}
+.status .col-sm-4
+{
+	    padding:0;
+}
+.status .col-sm-6, .member .col-sm-6
+{
+	    padding:0;
+}
+.status .col-sm-6 button
+{
+	    margin-left:115px;
+}
+.articlepage, .viewpage
+{
+	background:#FFF;
+	padding:20px 30px 30px 30px;
+}
+.articlepage label
+{
+	text-align:left !important;
+}
+.articlepage h2
+{
+	font:bold 25px Georgia, "Times New Roman", Times, serif;
+	padding-bottom:20px;
+}
+.pic
+{
+	margin:20px 0 0;
+}
+.jq-flipswitch
+{
+	width: 100px !important;
+    height: 20px !important;
+}
+.profile
+{
+	margin:20px 0;
+}
+.profile .form-horizontal .control-label, .form-horizontal .control-label
+{
+	text-align:left !important;
+}
+#edit
+{
+	width:35px !important;
+}
+.menu
+{
+	    background: #1fae66;
+		margin-bottom:20px;
+}
+.menu ul
+{
+	margin:0;
+	padding:0;
+}
+.menu li
+{
+	float:left;
+	margin-right:20px;
+	list-style:none;
+	font: bold 18px Georgia, "Times New Roman", Times, serif;
+	padding:12px 20px;
+}
+.menu li:hover
+{
+	background-color: rgba(0,0,0,0.2);
+}
+.menu li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+.jq-flipswitch
+{
+	width: 90px !important;
+    height: 22px !important;
+	box-shadow:none !important;
+	left: 30px !important;
+}
+.jq-flipper
+{
+	width: 45px !important;
+    height: 22px !important;
+	top:0px !important;
+}
+.jq-flipswitch-text-right
+{
+	width:50px !important;
+    line-height: 22px !important;
+}
+.jq-flipswitch-text-left
+{
+	width: 50px !important;
+    line-height: 22px !important;
+}
+.bg
+{
+	background:#FFF;
+	padding:10px 20px 20px;
+}
+.status-block {margin:-10px 0 10px 0;}
+.viewpage h3
+{
+	margin-top:0;
+}
+.aboutuserpage h3
+{
+	font:18px Georgia, "Times New Roman", Times, serif !important;
+	color:#090 !important;
+}
+.aboutuserpage h2
+{
+	font:20px Verdana, Geneva, sans-serif !important;
+}
+.post-content .pull-left
+{
+	width:30%;
+}
+.post-content .pull-right
+{
+	width:65%;
+}
+.post-content h3
+{
+	margin-top:0;
+	font:bold 18px Georgia, "Times New Roman", Times, serif;
+}
+.categorypage h1, .singlepage h3
+{
+	font:bold 20px Georgia, "Times New Roman", Times, serif;
+	color:#093;
+}
+.categorypage h1 span
+{
+	font:18px Georgia, "Times New Roman", Times, serif;
+	color:#000;
+}
+.singlepage h3
+{
+	margin:0 0 10px 0;
+}
+.singlepage .post-content img
+{
+	margin-bottom:20px;
+}
+#padding
+{
+	margin:20px 0 0 ;
+}
+.post-date a
+{
+	color:#093;
+	font:bold 12px Georgia, "Times New Roman", Times, serif;
+}
+.post-date a:hover
+{
+	color:#000;
+}
+.register
+{
+	width:94	% !important;
+	margin:0 auto !important;
+}
+#pic
+{
+	width:20% !important;
+}
+#menu1
+{
+	cursor:pointer;
+}
+.name
+{
+	font-size:16px;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    line-height: 23px;
+    font-weight: 400;
+	margin:10px 0 0 10px;
+}
+.glyphicon-user:before, .glyphicon-cog:before, .glyphicon-log-out:before
+{
+	padding-right:10px;
+}
+.dropdown-menu
+{
+	border-top: 3px solid #1fae66 !important;
+}
+.dropdown-menu>li>a
+{
+	padding-top:5px !important;
+	padding-bottom:7px !important;
+	
+}
+.dropdown-menu>li
+{
+	font-family:Georgia, "Times New Roman", Times, serif !important;
+	font-size:17px !important;
+}
+.dropdown-menu .divider
+{
+	margin:0 !important;
+}
+.dropdown-menu>li>a:hover
+{
+	background:#0C9 !important;
+	color:#FFF !important;
+	font-weight:bold;
+}
+#msg, .msg{margin-top:10px;}
+.login1 p
+{
+	font:15px Georgia, "Times New Roman", Times, serif;
+	line-height:25px;
+}	
+.singlepage, .comment {padding-bottom:30px;}
+.view-comment{background:url(../images/darkgrain.png) repeat; padding:20px;}
+.singlepage .col-md-9{background:#FFF; padding:15px;     width: 81.5%;}
+.singlepage .username{color:#39F; font:bold 15px Georgia, "Times New Roman", Times, serif; padding-bottom:15px;}
+.singlepage .date{color:#888; font:13px Georgia, "Times New Roman", Times, serif; padding-bottom:15px;;}
+.comment-count h3{color:#000; padding-bottom:10px;}
+.background,#update-comment {margin-bottom:20px;}
+.post-meta
+{
+	float:left;
+}
+.commentdiv
+{
+	    background:url(../images/comment1.png) no-repeat;
+		width:32px;
+		height:32px;
+		float: left;
+		margin: 15px 0;
+		text-align: center;
+		padding-top:7px;
+		font:bold 12px Georgia, "Times New Roman", Times, serif;
+		cursor:pointer;
+}
+.commentdiv a
+{
+	color:#333;
+}
+.ac:hover
+{
+	color:#000;
+	text-decoration:none;
+}
+.read .btn-success
+{
+	display:block;
+	
+}
+.read
+{
+	float:left;
+	
+}
+.social-icons
+{
+	float:right;
+	margin-top:4px;
+}
+.content
+{
+	margin-bottom:10px;
+}
+.singlepage-icon
+{
+	float:none;
+	margin-bottom:30px;
+}
+.twitter, .facebook
+{
+	background: #1b95e0 url(../images/twitter.png) no-repeat;
+    background-position: 6px 3px;
+    width: 70px;
+    color: #FFF;
+    border-radius: 5px;
+    display: block;
+    float: left;
+    padding: 2px 0 2px 27px;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.social-icons a:hover
+{
+	color:#FFF;
+}
+.facebook
+{
+	background:#4864b1 url(../images/facebook.png) no-repeat;
+	padding:2px 0 2px 20px;
+	margin-right:10px;
+	width:80px;
+	background-position:2px 3px;
+}
+.gplus
+{
+	background:#d80027 url(../images/plus.png) no-repeat;
+	background-position:5px 3px;
+	width:80px;
+	color:#FFF;
+	border-radius:5px;
+	display:block;
+	float:left;
+	padding:2px 0 2px 23px;
+	font-size:12px;
+}

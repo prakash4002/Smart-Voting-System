@@ -1,0 +1,128 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Smart Voting System</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="{% static 'layout/styles/layout.css' %}" rel="stylesheet" type="text/css" media="all">
+<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" type="text/css" media="all">
+<link rel="shortcut icon" href="{% static 'flew/favicon.ico' %}">
+
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="{% static 'flew/css/animate.css' %}">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="{% static 'flew/css/icomoon.css' %}">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="{% static 'flew/css/bootstrap.css' %}">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="{% static 'flew/css/flexslider.css' %}">
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="{% static 'flew/css/owl.carousel.min.css' %}">
+	<link rel="stylesheet" href="{% static 'flew/css/owl.theme.default.min.css' %}">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="{% static 'flew/css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="flew/js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body id="top" style="background:url({% static 'images/1.jpg' %});background-size:100%;">
+<style>
+.heading, .form-horizontal .control-label
+{
+color:#fff;
+}
+   .form-horizontal .control-label
+   {
+	   text-align:left !important;
+   }
+   .msg
+   {
+	       color: green;
+    padding-bottom: 20px;
+    font-size: 15px;
+   }
+   .heading
+   {
+	   border-bottom:2px solid #66CCCC;
+	   padding-bottom:15px;
+	   margin-bottom:30px;
+   }
+   .padding
+   {
+	   background-color: #00e6e6;
+	   height:700px;
+	   
+   }
+   th
+   {
+	  text-align:center;
+   }
+   .red
+   {
+	   color:green;
+	   font-weight:bold;
+   }
+   .category
+   {
+	       color: #66CCCC !important;
+    font-size: 16px;
+    font-weight: bold;
+   }
+</style>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<?php
+include('config.php');
+session_start();
+?>
+<div class="wrapper row0">
+  <div id="topbar" class="hoc clear" style="margin-top:-10px;padding: 20px 0;"> 
+    <!-- ################################################################################################ -->
+    <div class="fl_left">
+      <ul class="nospace" style="font-size:12px;">
+        <h3 style="color:#FFF;"><a href="{% url 'admin_login' %}">Smart Voting System</a></h3>
+      </ul>
+    </div>
+	
+    <div class="fl_right">
+      <ul class="nospace" style="font-size:12px;">
+	  <li><a href="{% url 'admin_login' %}"> Admin Login</a></li>
+		<li><a href="{% url 'voter_login' %}">Voter Login</a></li>
+		
+	
+      </ul>
+    </div>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+
+  
+<a id="backtotop" href="#top"><i class="fa fa-chevron-up"></i></a>
+<!-- JAVASCRIPTS -->
+<script src="{% static 'layout/scripts/jquery.min.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.backtotop.js' %}"></script>
+<script src="{% static 'layout/scripts/jquery.mobilemenu.js' %}"></script>
+<!-- jQuery -->
+	<script src="{% static 'flew/js/jquery.min.js' %}"></script>
+	<!-- jQuery Easing -->
+	<script src="{% static 'flew/js/jquery.easing.1.3.js' %}"></script>
+	<!-- Bootstrap -->
+	<script src="{% static 'flew/js/bootstrap.min.js' %}"></script>
+	<!-- Waypoints -->
+	<script src="{% static 'flew/js/jquery.waypoints.min.js' %}"></script>
+	<!-- Owl Carousel -->
+	<script src="{% static 'flew/js/owl.carousel.min.js' %}"></script>
+	<!-- Flexslider -->
+	<script src="{% static 'flew/js/jquery.flexslider-min.js' %}"></script>
+
+	<!-- MAIN JS -->
+	<script src="{% static 'flew/js/main.js' %}"></script>
+</body>
+</html>

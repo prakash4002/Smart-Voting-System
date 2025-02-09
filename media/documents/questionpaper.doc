@@ -1,0 +1,173 @@
+MSRIT AI QUETION PAPER 2018----FOR THE FIRST TIME SET BY AN AI
+
+
+UNIT 1
+
+1.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) Apply
+
+2.Consider the n-queens problem using the ìef?cientî incremental formulation given on page 72. Explain why the state space has at least 3 ? n! states and estimate the largest n for which exhaustive exploration isfeasible. (Hint: Derivea lowerbound on the branching factor byconsidering themaximumnumberofsquares thataqueen can attack inanycolumn.) --(6) Apply
+
+3.For each of the following assertions, say whether it is true or false and support your
+answer with examples or counterexamples where appropriate.
+a. An agent that senses only partial information about the state cannot be perfectly rational.
+62 Chapter 2. Intelligent Agents
+b. There exist task environments in which no pure reflex agent can behave rationally.
+c. There exists a task environment in which every agent is rational.
+d. The input to an agent program is the same as the input to the agent function.
+e. Every agent function is implementable by some program/machine combination.
+f. Suppose an agent selects its action uniformly at random from the set of possible actions.
+There exists a deterministic task environment in which this agent is rational.
+g. It is possible for a given agent to be perfectly rational in two distinct task environments.
+h. Every agent is rational in an unobservable environment.
+i. A perfectly rational poker-playing agent never loses.--(10) UND
+
+OR
+
+4.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) UND
+
+5.Describe the differences and similarities between problem solving and planning.--(4) Apply
+
+6.Consider a knowledge base containing just two sentences: P(a) and P(b). Does this knowledge base entail ? x P(x)? Explain your answer in terms of models--(8) Analyze
+
+7.1.1 Define in your own words: (a) intelligence, (b) artificial intelligence, (c) agent, (d)
+rationality, (e) logical reasoning--(4) UND
+
+
+
+UNIT 2
+
+8.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+9.Describe the differences and similarities between problem solving and planning.--(4) Apply
+
+10.Consider a knowledge base containing just two sentences: P(a) and P(b). Does this knowledge base entail ? x P(x)? Explain your answer in terms of models--(8) Analyze
+
+11.1.1 Define in your own words: (a) intelligence, (b) artificial intelligence, (c) agent, (d)
+rationality, (e) logical reasoning--(4) UND
+
+OR
+
+12.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+13.Prove that backward search with PDDL problems is complete--(8) Evaluate
+
+14.For each of the following assertions, say whether it is true or false and support your
+answer with examples or counterexamples where appropriate.
+a. An agent that senses only partial information about the state cannot be perfectly rational.
+62 Chapter 2. Intelligent Agents
+b. There exist task environments in which no pure reflex agent can behave rationally.
+c. There exists a task environment in which every agent is rational.
+d. The input to an agent program is the same as the input to the agent function.
+e. Every agent function is implementable by some program/machine combination.
+f. Suppose an agent selects its action uniformly at random from the set of possible actions.
+There exists a deterministic task environment in which this agent is rational.
+g. It is possible for a given agent to be perfectly rational in two distinct task environments.
+h. Every agent is rational in an unobservable environment.
+i. A perfectly rational poker-playing agent never loses.--(10) Create
+
+
+
+UNIT 3
+
+15. Show that the 8-puzzle states are divided into two disjoint sets, such that any state is reachable from any other state in the same set, while no state is reachable from any state in the other set. (Hint: See Berlekamp et al. (1982).) Devise a procedure to decide which set a given state is in, and explain why this is useful for generating random states. --(10) Evaluate
+
+16.For each of the following assertions, say whether it is true or false and support your
+answer with examples or counterexamples where appropriate.
+a. An agent that senses only partial information about the state cannot be perfectly rational.
+62 Chapter 2. Intelligent Agents
+b. There exist task environments in which no pure reflex agent can behave rationally.
+c. There exists a task environment in which every agent is rational.
+d. The input to an agent program is the same as the input to the agent function.
+e. Every agent function is implementable by some program/machine combination.
+f. Suppose an agent selects its action uniformly at random from the set of possible actions.
+There exists a deterministic task environment in which this agent is rational.
+g. It is possible for a given agent to be perfectly rational in two distinct task environments.
+h. Every agent is rational in an unobservable environment.
+i. A perfectly rational poker-playing agent never loses.--(10) Create
+
+OR
+
+17.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+18.Is the sentence ? x, y x = y valid? Explain.--(3) UND
+
+19.Yourgoal is to navigate a robot out of a maze. The robot starts in the center of the maze
+Exercises 113
+facing north. You can turn the robot to face north, east, south, or west. You can direct the robot to move forward a certain distance, although it will stop before hitting a wall. a. Formulate this problem. How large is the state space? b. In navigating a maze, the only place we need to turn is at the intersection of two or more corridors. Reformulate this problem using this observation. How large is the state space now? c. Fromeach point in the maze, we can move in any of the four directions until we reach a turning point, and this is the only action we need to do. Reformulate the problem using these actions. Do we need to keep track of the robotís orientation now? d. In our initial description of the problem we already abstracted from the real world, restricting actions and removing details. List three such simpli?cations we made--(5) Apply
+
+20.For each of the following assertions, say whether it is true or false and support your
+answer with examples or counterexamples where appropriate.
+a. An agent that senses only partial information about the state cannot be perfectly rational.
+62 Chapter 2. Intelligent Agents
+b. There exist task environments in which no pure reflex agent can behave rationally.
+c. There exists a task environment in which every agent is rational.
+d. The input to an agent program is the same as the input to the agent function.
+e. Every agent function is implementable by some program/machine combination.
+f. Suppose an agent selects its action uniformly at random from the set of possible actions.
+There exists a deterministic task environment in which this agent is rational.
+g. It is possible for a given agent to be perfectly rational in two distinct task environments.
+h. Every agent is rational in an unobservable environment.
+i. A perfectly rational poker-playing agent never loses.--(10) Evaluate
+
+
+
+UNIT 4
+
+21.Describe the differences and similarities between problem solving and planning.--(4) UND
+
+22.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) Apply
+
+23.Consider a knowledge base containing just two sentences: P(a) and P(b). Does this knowledge base entail ? x P(x)? Explain your answer in terms of models--(8) Analyze
+
+24.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+OR
+
+25.Read Turingís original paper on AI (Turing, 1950). In the paper, he discusses several
+objections to his proposed enterprise and his test for intelligence. Which objections still carry
+weight? Are his refutations valid? Can you think of new objections arising from developments
+since he wrote the paper? In the paper, he predicts that, by the year 2000, a computer
+will have a 30% chance of passing a five-minute Turing Test with an unskilled interrogator.
+What chance do you think a computer would have today? In another 50 years--(2) REM
+
+26.Prove that backward search with PDDL problems is complete--(8) Evaluate
+
+27. Show that the 8-puzzle states are divided into two disjoint sets, such that any state is reachable from any other state in the same set, while no state is reachable from any state in the other set. (Hint: See Berlekamp et al. (1982).) Devise a procedure to decide which set a given state is in, and explain why this is useful for generating random states. --(10) Create
+
+
+
+UNIT 5
+
+28.Suppose that the performance measure is concerned with just the first T time steps of
+the environment and ignores everything thereafter. Show that a rational agentís action may
+depend not just on the state of the environment but also on the time step it has reached--(4) UND
+
+29.1.1 Define in your own words: (a) intelligence, (b) artificial intelligence, (c) agent, (d)
+rationality, (e) logical reasoning--(4) Apply
+
+30.Prove that backward search with PDDL problems is complete--(8) Analyze
+
+31.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) UND
+
+OR
+
+32.Explain how to write any given 3-SAT problem of arbitrary size using a single first-order definite clause and no more than 30 ground facts.--(4) Apply
+
+33.Is AI a science, or is it engineering? Or neither or both? Explain.--(6) Apply
+
+34. Show that the 8-puzzle states are divided into two disjoint sets, such that any state is reachable from any other state in the same set, while no state is reachable from any state in the other set. (Hint: See Berlekamp et al. (1982).) Devise a procedure to decide which set a given state is in, and explain why this is useful for generating random states. --(10) UND
+

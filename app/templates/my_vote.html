@@ -1,0 +1,67 @@
+{% include 'db_header.html' %}
+
+<style>
+.input
+{
+	height:32px;
+	border-radius:5px;
+	border:1px solid #DDD;
+	width:200px;
+	margin-right:20px;
+	
+}
+.search
+{
+	margin-top:30px;
+}
+</style>
+<div class="adminlogin">
+<div style="padding-left:0;padding-right:0;width:18%;" class="col-md-2 padding">
+		{% include 'voter_menu.html' %}
+
+</div>
+<div class="col-md-8">
+<h3 style="margin-top:30px;" > Vote Details</h3>
+
+	<div class="table-responsive ">          
+		  <table style="margin-top:20px;" class="table table-bordered" >
+			<thead style="text-align:center;">
+			  <tr style="text-align:center;">
+				<th>SNo</th>
+				<th> Candidate Name</th>
+				<th>Candidate Image</th>
+				<th>City/Area</th>
+				
+				<th>Symbol</th>
+				<th>Status</th>
+			  </tr>
+			</thead>
+			<tbody>
+			{% for i in row %}
+				<tr style="text-align:center;">
+					<td>{{forloop.counter}}</td>
+					<td>{{i.candidate_id.name}}</td>
+					<td>
+					<img src="/media/{{i.candidate_id.image}}" style="width:50px;height: 50px;">
+					</td>
+					<td>{{i.candidate_id.city}} / {{i.candidate_id.area}}</td>
+					
+					<td>
+					<img src="/media/{{i.candidate_id.symbol}}" style="width:50px;height: 50px;">
+					</td>
+					<td><span class="badge badge-danger" style="background: green;">Voted</span></td>
+					
+				</tr>
+				{% endfor %}
+		
+		  </tbody>
+  </table>
+
+  </div>
+</div>
+<div style="clear:both;"></div>
+</div>
+<style>
+
+</style>
+{% include 'footer.html' %}

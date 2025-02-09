@@ -1,0 +1,18 @@
+{% include 'db_header.html' %}
+<div class="adminlogin">
+<div style="padding-left:0;padding-right:0;width:18%;" class="col-md-2 padding">
+	{% include 'voter_menu.html' %}
+</div>
+<div class="col-md-9">
+
+<marquee><h2 class="" style="margin-top:200px;">Welcome {{request.session.user}}</h2></marquee>
+	
+</div>
+<div style="clear:both;"></div>
+</div>
+<style>
+.padding
+{
+	height:1000px;
+}
+</style>

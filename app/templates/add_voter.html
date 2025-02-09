@@ -1,0 +1,113 @@
+
+{% include 'db_header.html' %}
+
+<div class="adminlogin">
+<div style="padding-left:0;padding-right:0;width:18%;" class="col-md-2 padding">
+	{% include 'menu.html' %}
+
+</div>
+<div class="col-md-9">
+<div class="msg" style="padding-top:20px;"> {% if messages %}
+          {% for i in messages %}
+            <div class="alert alert-success">{{i}}</div>
+          {% endfor %}
+        {% endif %}</div>
+<h3 class="heading" style="margin-top:20px;">Add Voter Details</h3>
+	<form class="form-horizontal" role="form"  method="post" enctype="multipart/form-data"> {% csrf_token %}
+		
+	  <div class="form-group">
+		<label class="control-label col-sm-3"> Face Id</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="face_id" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3"> Name</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="name" required>
+		</div>
+	  </div>
+	   <div class="form-group">
+		<label class="control-label col-sm-3">Email</label>
+		<div class="col-sm-8">
+		  <input type="email" class="form-control" name="email" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Mobile</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="mobile" required>
+		</div>
+	  </div>
+	    
+	  
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Age</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="age" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">DOB</label>
+		<div class="col-sm-8">
+		  <input type="date" class="form-control" name="dob" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Gender</label>
+		<div class="col-sm-8">
+		  <input type="radio"  name="gender" value="Male"> Male
+		  <input type="radio"  name="gender" value="Female"> Female
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Profile Picture</label>
+		<div class="col-sm-8">
+		  <input type="file" class="form-control" name="image" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Upload Voter Id</label>
+		<div class="col-sm-8">
+		  <input type="file" class="form-control" name="voter_id" required>
+		</div>
+	  </div>
+	  <div class="form-group">
+		<label class="control-label col-sm-3">City</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="city" required>
+		</div>
+	  </div>
+	  
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Area</label>
+		<div class="col-sm-8">
+		  <input type="text" class="form-control" name="area" required>
+		</div>
+	  </div>
+	  
+	  <div class="form-group">
+		<label class="control-label col-sm-3">Address</label>
+		<div class="col-sm-8">
+		  <textarea class="form-control" name="address" required></textarea>
+		</div>
+	  </div>
+	  <div class="form-group"> 
+	  <label class="control-label col-sm-3"></label>
+	  <div class="col-sm-8">
+		  <input type="submit" class="btn btn-success" value="ADD VOTER" name="prof">
+		</div>
+      
+    </div>
+  </div>
+	</form>
+</div>
+<div style="clear:both;"></div>
+</div>
+<style>
+.padding
+{
+	height:1000px;
+}
+</style>
+{% include 'footer.html' %}

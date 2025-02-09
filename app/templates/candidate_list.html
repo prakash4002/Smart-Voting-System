@@ -1,0 +1,54 @@
+{% include 'db_header.html' %}
+<style>
+.input
+{
+	height:32px;
+	border-radius:5px;
+	border:1px solid #DDD;
+	width:200px;
+	margin-right:20px;
+	
+}
+.search
+{
+	margin-top:30px;
+}
+.row
+{
+	margin-left:20px;
+	text-align:center;
+}
+.padding {
+    background-color: green;
+    height: 1000px;
+}
+</style>
+<div class="adminlogin">
+<div style="padding-left:0;padding-right:0;width:18%;" class="col-md-2 padding">
+	{% include 'voter_menu.html' %}
+</div>
+<div class="col-md-8">
+<div class="row">
+	{% for i in row %}
+	<div class="col-md-6">
+		<h4 style="margin-top:30px;">Candidate Name: {{i.name}}</h4>
+		<img src="/media/{{i.image}}" style="width:200px;height:200px;">
+	</div>
+	<div class="col-md-6">
+		<img src="/media/{{i.symbol}}" style="width:200px;height:200px;">
+		<h5 style="font-weight:bold;margin-top:15px;">Area: {{i.area}} , {{i.city}}</h5>
+		<a href="{% url 'pool_vote' %}?candidate_id={{i.id}}" class="btn btn-info"><i class="fa fa-hand-pointer-o"></i> Poll Vote</a>
+		<a href="{% url 'logout' %}" class="btn btn-danger"><i class="fa fa-remove"></i> Exit</a>
+	</div>
+	{% endfor %}
+</div>
+</div>
+
+
+	
+</div>
+<div style="clear:both;"></div>
+</div>
+<style>
+
+</style>

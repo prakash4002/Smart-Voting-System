@@ -1,0 +1,33 @@
+{% include 'header.html' %}
+	
+<div class="adminlogin" style="margin-bottom:200px;padding-bottom: 70px;">
+
+	<div class="container" style="width:70%;margin:0 auto;">
+	<h3 class="heading">Voter Login</h3>{% if messages %}
+	<div class="msg" style="padding-top:20px;"> {% for i in messages %}
+            <div class="alert alert-danger">{{i}}</div>
+          {% endfor %}
+        {% endif %}
+	<form class="form-horizontal" role="form" action="{% url 'voter_login' %}" method="post" enctype="multipart/form-data">{% csrf_token %}
+  <div class="form-group">
+    <label class="control-label col-sm-2">UserName</label>
+    <div class="col-sm-6">
+      <input type="text" class="form-control" name="name" placeholder="Enter Id">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">Password</label>
+    <div class="col-sm-6"> 
+      <input type="password" class="form-control" name="password" placeholder="Enter Password">
+    </div>
+  </div>
+
+	<div class="form-group"> 
+    <div class="col-sm-offset-2 col-sm-8">
+      <input type="submit" class="btn btn-success" value="Login " name="signup">
+    </div>
+  </div>
+  </form>
+  	</div>
+</div>
+{% include 'footer.html' %}

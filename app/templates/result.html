@@ -1,0 +1,50 @@
+{% include 'db_header.html' %}
+<style>
+.input
+{
+	height:32px;
+	border-radius:5px;
+	border:1px solid #DDD;
+	width:200px;
+	margin-right:20px;
+	
+}
+.search
+{
+	margin-top:30px;
+}
+.row
+{
+	margin-left:20px;
+	text-align:center;
+}
+.padding {
+    background-color: green;
+    height: 1000px;
+}
+</style>
+<div class="adminlogin">
+<div style="padding-left:0;padding-right:0;width:18%;" class="col-md-2 padding">
+	{% include 'menu.html' %}
+</div>
+<div class="col-md-8">
+<div class="row">
+	{% for i in row %}
+	<div class="col-md-6">
+		<h4 style="margin-top:30px;">Candidate Name: {{i.2}}</h4>
+		<img src="/media/{{i.3}}" style="width:200px;height:200px;">
+		<h3>Total Vote: {{i.0}} </h3>
+ 	</div>
+	
+	{% endfor %}
+</div>
+</div>
+
+
+	
+</div>
+<div style="clear:both;"></div>
+</div>
+<style>
+
+</style>
